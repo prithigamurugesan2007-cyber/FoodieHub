@@ -44,4 +44,4 @@ The main objective of FoodieHub is to demonstrate how a Single Page Application 
 
 Prithiga Murugesan
 
-Developed as part of the Week 5 — Single Page Application (SPA) Simulation project.
+Developed as  — Single Page Application (SPA) Simulation project.
