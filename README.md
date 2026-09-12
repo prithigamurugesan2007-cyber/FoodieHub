@@ -26,16 +26,10 @@ FoodieHub is a frontend-only restaurant discovery SPA built for the Week 5 SPA S
 - 404 error handling
 - Responsive mobile navigation
 
-## Important
-This project intentionally has **no backend**. Login information and favorites are stored locally in the browser for demonstration purposes only. Do not use real passwords.
 
 ## Local testing
 You can double-click `index.html` and use the application. When opened with `file://`, the router automatically uses hash URLs such as `#/about` so navigation works without a server.
 
 For cloud/static hosting, the app uses normal History API routes such as `/about`. If your host does not support SPA rewrites, enable a rewrite/fallback from unknown routes to `index.html`, or use the local hash fallback.
 
-## Submission
-Submit:
-1. The complete `FoodieHub` ZIP file.
-2. The deployed live URL.
-3. `Technical-Report.md`.
+
