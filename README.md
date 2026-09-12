@@ -32,4 +32,16 @@ You can double-click `index.html` and use the application. When opened with `fil
 
 For cloud/static hosting, the app uses normal History API routes such as `/about`. If your host does not support SPA rewrites, enable a rewrite/fallback from unknown routes to `index.html`, or use the local hash fallback.
 
+🔐 Note
 
+This is a frontend-only project developed without a backend. Login and favorite restaurant data are stored using LocalStorage for demonstration purposes.
+
+🎯 Project Objective
+
+The main objective of FoodieHub is to demonstrate how a Single Page Application can dynamically change content and manage navigation without full page reloads using vanilla JavaScript and the History API.
+
+👨‍💻 Developed By
+
+Prithiga Murugesan
+
+Developed as part of the Week 5 — Single Page Application (SPA) Simulation project.
