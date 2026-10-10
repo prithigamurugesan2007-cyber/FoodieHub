@@ -1,47 +1,63 @@
-# FoodieHub — Single Page Application
+# 🍔 FoodieHub — Restaurant Discovery SPA
 
-FoodieHub is a frontend-only restaurant discovery SPA built for the Week 5 SPA Simulation task.
+FoodieHub is a frontend-based restaurant discovery web application that allows users to explore restaurants, browse food menus, search and filter food options, and save their favorite restaurants.
 
-## Technologies
-- HTML5
-- CSS3
-- Vanilla JavaScript (ES6+)
-- LocalStorage
-- History API
-- Responsive design
+## 🌐 Live Demo
 
-## Features
-- Login/Register-style frontend screen
-- LocalStorage-based session
+🔗 **[Explore FoodieHub](https://foodiehub-git-main-prithiga.vercel.app/)**
+
+## 🛠️ Technologies Used
+
+- **HTML5** — Webpage structure
+- **CSS3** — Styling, layouts, animations, and responsive design
+- **Vanilla JavaScript (ES6+)** — Application logic and interactivity
+- **LocalStorage** — Browser-based storage for demo sessions and favorites
+- **History API** — Client-side navigation and routing
+- **Git & GitHub** — Version control and project management
+- **Vercel** — Deployment and hosting
+
+## ✨ Features
+
+- Login and registration-style interface
+- Demo session management
 - Home dashboard
-- Restaurant listing
+- Restaurant listings
 - Search and category filtering
-- Restaurant details and menu
-- Favorites stored in LocalStorage
-- Profile page
+- Restaurant details and food menus
+- Favorites management
+- User profile page
 - About page
-- Client-side routing
-- Browser Back/Forward support
+- Client-side routing without full page reloads
+- Browser Back and Forward navigation
 - Smooth route transitions
 - 404 error handling
 - Responsive mobile navigation
 
+## ⚙️ How It Works
 
-## Local testing
-You can double-click `index.html` and use the application. When opened with `file://`, the router automatically uses hash URLs such as `#/about` so navigation works without a server.
+FoodieHub uses Vanilla JavaScript to dynamically update webpage content and handle user interactions without reloading the entire page. The History API manages client-side navigation, while LocalStorage stores demo session information and favorite restaurants in the browser.
 
-For cloud/static hosting, the app uses normal History API routes such as `/about`. If your host does not support SPA rewrites, enable a rewrite/fallback from unknown routes to `index.html`, or use the local hash fallback.
+The application provides an interactive restaurant discovery experience through a responsive user interface.
 
-🔐 Note
+## 🔮 Future Enhancements
 
-This is a frontend-only project developed without a backend. Login and favorite restaurant data are stored using LocalStorage for demonstration purposes.
+- Integrate a backend server and database
+- Implement secure user authentication
+- Retrieve restaurant and menu information from an API
+- Add shopping cart and online food ordering
+- Integrate an online payment gateway
+- Add restaurant ratings and reviews
 
-🎯 Project Objective
+## 🔐 Project Limitations
 
-The main objective of FoodieHub is to demonstrate how a Single Page Application can dynamically change content and manage navigation without full page reloads using vanilla JavaScript and the History API.
+FoodieHub is a frontend-only application without a backend server or database. Login and favorite functionality rely on browser LocalStorage and are intended for demonstration purposes rather than production-level security.
 
-👨‍💻 Developed By
+## 🎯 Project Objective
 
-Prithiga Murugesan
+The objective of FoodieHub is to demonstrate the development of a Single Page Application using HTML, CSS, and Vanilla JavaScript, with a focus on dynamic content rendering, client-side routing, browser storage, responsive design, and interactive user experiences.
 
-Developed as  — Single Page Application (SPA) Simulation project.
+## 👩‍💻 Developed By
+
+**Prithiga Murugesan**
+
+Developed as a **Single Page Application (SPA) project**.
